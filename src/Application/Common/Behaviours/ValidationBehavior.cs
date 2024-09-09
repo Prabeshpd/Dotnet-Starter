@@ -2,7 +2,7 @@ using FluentValidation.Results;
 
 using ValidationException = PetStore.Application.Common.Exceptions.ValidationException;
 
-namespace CleanArchitecture.Application.Common.Behaviors;
+namespace PetStore.Application.Common.Behaviors;
 
 public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
      where TRequest : notnull
